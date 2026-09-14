@@ -15,8 +15,6 @@ import requests
 from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from urllib.parse import urlparse
-import random
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -25,70 +23,17 @@ if hasattr(sys.stderr, "reconfigure"):
 
 BASE_URL = "https://ncar.org.uk"
 ARCHIVE_URL = f"{BASE_URL}/animal_categories/dogs/"
-BROWSER_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-    "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-    "Sec-Fetch-Site": "same-origin",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-User": "?1",
-    "Sec-Fetch-Dest": "document",
-    "DNT": "1",
+REQUEST_HEADERS = {
+    "User-Agent": "ncar-information-dog-fetcher/1.0",
+    "Accept": "text/html",
+    "Accept-Language": "en-GB,en;q=0.9",
 }
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "_data", "dogs.json")
 
-# Selected proxy string (e.g. "http://user:pass@host:port") or None
-SELECTED_PROXY = None
-
-
-def discover_proxy(max_candidates=10):
-    """Try to discover a working free HTTP proxy from a public list.
-    Returns a proxy URL string (including scheme) or None if none found quickly.
-    """
-    # Respect explicit env vars first
-    for env in ("PROXY", "HTTP_PROXY", "HTTPS_PROXY"):
-        v = os.environ.get(env)
-        if v:
-            print(f"Using proxy from env {env}: {v}")
-            return v
-
-    print("No proxy env var found — trying to discover a free proxy (this may take a few seconds)")
-    try:
-        # ProxyScrape simple text list (fast). We'll try a small sample.
-        resp = requests.get(
-            "https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=5000&country=all",
-            timeout=10,
-        )
-        if resp.status_code != 200:
-            return None
-        proxies = [p.strip() for p in resp.text.splitlines() if p.strip()]
-    except Exception:
-        return None
-
-    random.shuffle(proxies)
-    probes = proxies[:max_candidates]
-    test_url = "https://httpbin.org/ip"
-    for candidate in probes:
-        proxy_url = f"http://{candidate}" if not candidate.startswith("http") else candidate
-        proxies_dict = {"http": proxy_url, "https": proxy_url}
-        try:
-            s = requests.Session()
-            s.headers.update(BROWSER_HEADERS)
-            r = s.get(test_url, proxies=proxies_dict, timeout=8)
-            if r.status_code == 200 and "origin" in r.text:
-                print(f"Discovered working proxy: {proxy_url}")
-                return proxy_url
-        except Exception:
-            continue
-    return None
-
-
 def build_session():
     session = requests.Session()
-    session.headers.update(BROWSER_HEADERS)
+    session.trust_env = False
+    session.headers.update(REQUEST_HEADERS)
     retries = Retry(
         total=3,
         backoff_factor=0.5,
@@ -98,10 +43,6 @@ def build_session():
     adapter = HTTPAdapter(max_retries=retries)
     session.mount("https://", adapter)
     session.mount("http://", adapter)
-    # Apply proxy if discovered
-    global SELECTED_PROXY
-    if SELECTED_PROXY:
-        session.proxies.update({"http": SELECTED_PROXY, "https": SELECTED_PROXY})
     return session
 
 
@@ -114,7 +55,6 @@ def get_soup(url):
     last_error = None
     for candidate in candidates:
         try:
-            session.get(BASE_URL + "/", timeout=20, allow_redirects=True)
             response = session.get(candidate, timeout=30, allow_redirects=True)
             if response.status_code == 200:
                 return BeautifulSoup(response.text, "html.parser")
@@ -123,36 +63,6 @@ def get_soup(url):
             last_error = requests.HTTPError(f"{candidate} returned {response.status_code}", response=response)
         except requests.RequestException as exc:
             last_error = exc
-
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError as exc:
-        raise RuntimeError("The live site blocked the request and Playwright is not installed") from exc
-
-    # Use Playwright as a fallback; if a proxy was selected, pass it to Playwright
-    with sync_playwright() as playwright:
-        proxy_arg = None
-        if SELECTED_PROXY:
-            parsed = urlparse(SELECTED_PROXY)
-            server = f"{parsed.scheme}://{parsed.hostname}:{parsed.port}"
-            proxy_arg = {"server": server}
-            if parsed.username:
-                proxy_arg["username"] = parsed.username
-            if parsed.password:
-                proxy_arg["password"] = parsed.password
-
-        if proxy_arg:
-            browser = playwright.chromium.launch(headless=True, proxy=proxy_arg)
-        else:
-            browser = playwright.chromium.launch(headless=True)
-
-        page = browser.new_page(user_agent=BROWSER_HEADERS["User-Agent"])
-        page.goto(url, wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(2500)
-        html = page.content()
-        browser.close()
-        if html:
-            return BeautifulSoup(html, "html.parser")
 
     if last_error:
         raise last_error
@@ -307,12 +217,6 @@ def debug_dog_page(url):
 
 
 def main():
-    # Attempt to discover or read a proxy before starting fetches. If you prefer to
-    # force a proxy, set the PROXY/HTTP_PROXY/HTTPS_PROXY env var (e.g. in GitHub
-    # Actions secrets). Discovery uses a public proxy list and tests candidates.
-    global SELECTED_PROXY
-    SELECTED_PROXY = discover_proxy()
-
     if len(sys.argv) == 3 and sys.argv[1] == "--debug-url":
         debug_dog_page(sys.argv[2])
         return

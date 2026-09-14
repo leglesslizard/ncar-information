@@ -19,9 +19,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4 playwright
-          python -m playwright install --with-deps chromium
+        run: pip install requests beautifulsoup4
 
       - name: Fetch dogs data
         run: python _scripts/fetch_dogs.py
