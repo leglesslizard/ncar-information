@@ -1,6 +1,28 @@
 [
   {
-    "name": "Gouda – appointment booked",
+    "name": "Mick",
+    "url": "https://ncar.org.uk/animals/mick/",
+    "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260919-WA0017-scaled.jpg",
+    "status": null,
+    "age": "6 years, 6months.",
+    "sex": "Male",
+    "breed": "Labrador",
+    "notes": [
+      "can live with older children",
+      "friendly with dogs",
+      "friendly with strangers",
+      "is toilet trained"
+    ],
+    "description": [
+      "Mick is a great, excitable lad that came to us no fault of his own. He is looking for his forever home that can get involved in training and give him lots of walks.",
+      "Mick arrived to the rescue friendly but quite unsure of the busy environment. He could initally be quite timid and be uncomfortable with kennel staff over handling him, and be uncomfortable around food and toys. We’ve taken extra time to get to know him and now he is much better and confident with people. He’s playful with toys, is eager to go for walks and is generally a happy boy!",
+      "We expect that he will be nervous when he’s adopted and in a new environment with new people, so therefore he will be more suited to a quieter home, that give him lots of calm introductions.",
+      "Mick is looking for a home as the only dog, he will need some 1-2-1 training so we think he’ll be best in a home where he can get all the attention. He is friendly with dogs out and about, so it is important that is regularly socialised on walks.",
+      "He is a strong boy so will need owners that can manage his strength and work on his lead training. Generally he is a great boy who we hope finds a home soon, as he deserves some home comforts."
+    ]
+  },
+  {
+    "name": "Gouda – reserved pending app.",
     "url": "https://ncar.org.uk/animals/gouda/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260916-WA0010-scaled.jpg",
     "status": null,
@@ -23,7 +45,7 @@
     ]
   },
   {
-    "name": "Pippa  – appointment booked",
+    "name": "Pippa  – reserved pending app.",
     "url": "https://ncar.org.uk/animals/pippa/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260916-WA0002.jpg",
     "status": null,
@@ -44,7 +66,7 @@
     ]
   },
   {
-    "name": "Forest",
+    "name": "Forest – reserved pending app.",
     "url": "https://ncar.org.uk/animals/forest/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260919-WA0007.jpg",
     "status": null,
