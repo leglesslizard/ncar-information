@@ -1,5 +1,26 @@
 [
   {
+    "name": "Bella 3",
+    "url": "https://ncar.org.uk/animals/bella-3/",
+    "image": "https://ncar.org.uk/wp-content/uploads/2026/09/0230b9cd-85ea-447c-bb44-988b5ee32125.jpeg",
+    "status": null,
+    "age": "4 years, 3 months",
+    "sex": "Female",
+    "breed": "Staffie",
+    "notes": [
+      "can live with older children",
+      "friendly with strangers",
+      "good on the lead",
+      "can't live with dogs"
+    ],
+    "description": [
+      "Bella 3 arrived to us as a stray, unfortunately we don’t have any history on her, however we did find out she was on Facebook up for rehoming. She is now looking for a home where she can settle and have lots of cuddles.",
+      "She is a friendly, sweet girl who has been great with people since she arrived. She likes her walks and does have a good sniff and even with little legs she can walk far! She walks well on lead and doesn’t really pull, but she can when she is interested in a sniff. She is looking for a home where she won’t be left alone for long periods as she does enjoy your company.",
+      "She isn’t too keen around dogs at the moment, she will happily ignore them on walks and isn’t reactive, but she does get uncomfortable when dogs are too boisterous or in her face. She is looking for a home as the only dog, she will much prefer having all the attention! We think she has been passed around different homes in her 4 years of life so far, so we hope her next home will be very dedicated to spoiling her and giving her lots of love + stability.",
+      "She is a good girl, she’s very affectionate and likes a fuss. We think she’ll be a real snuggle buddy in a home. She can be rehomed with children 8+ who are used to being around dogs and respect her space when needed. We hope she isn’t in kennels too long as she is quite stressed and will thrive once shes back in a home environment."
+    ]
+  },
+  {
     "name": "Mick",
     "url": "https://ncar.org.uk/animals/mick/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260919-WA0017-scaled.jpg",
@@ -22,10 +43,10 @@
     ]
   },
   {
-    "name": "Gouda – reserved pending app.",
+    "name": "Gouda",
     "url": "https://ncar.org.uk/animals/gouda/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260916-WA0010-scaled.jpg",
-    "status": null,
+    "status": "Reserved",
     "age": "7-8years approx",
     "sex": "Female",
     "breed": "JRT Cross",
@@ -45,10 +66,10 @@
     ]
   },
   {
-    "name": "Pippa  – reserved pending app.",
+    "name": "Pippa",
     "url": "https://ncar.org.uk/animals/pippa/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260916-WA0002.jpg",
-    "status": null,
+    "status": "Reserved",
     "age": "8years Approx",
     "sex": "Female",
     "breed": "",
@@ -220,10 +241,10 @@
     ]
   },
   {
-    "name": "Basil – appointment booked",
+    "name": "Basil",
     "url": "https://ncar.org.uk/animals/basil/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/07/6f67b63f-9b5c-41b0-ba66-7247dc1bb717-1-e1785418322731.jpeg",
-    "status": null,
+    "status": "Reserved",
     "age": "6 months old",
     "sex": "Male",
     "breed": "German Shepherd cross Malinois",
