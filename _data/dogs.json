@@ -1,5 +1,22 @@
 [
   {
+    "name": "Welsh Pups",
+    "url": "https://ncar.org.uk/animals/welsh-pups/",
+    "image": "https://ncar.org.uk/wp-content/uploads/2026/09/6D060C10-8199-4AC0-9A44-235C25CE7341.jpeg",
+    "status": null,
+    "age": "5 months old",
+    "sex": "Male",
+    "breed": "Collie x Staffie",
+    "notes": [],
+    "description": [
+      "We recently had 8 Collie x Staffie puppies brought to us due to them being an accidental litter. They are very cute, cheeky and have lots of potential to be amazing companions in the right home. They are now looking for their forever homes, where they can get lots of training and socialising to become well-rounded adults, as well have lots of adventures and love with their families. These are the puppies that came in with an illness, thankfully after lots of care they are much better now and we will chat to suitable candidates further about this.",
+      "We have 3 girls and 5 boys. They vary in size currently and are likely to be medium sized when fully grown. They are lively pups who will need homes with owners that are dedicated to their ongoing training and socialisation to ensure that they mature into well-rounded adult dogs. They have had limited training so far but we will continue working with them during their stay with us. They are clever pups who are also very food orientated which will aid in their training.",
+      "Due to their breed, we are expecting that they will have plenty of energy and be eager to go on lots of walks and adventures. Please research the breeds to understand their behaviour and what to expect. Whilst they are puppies, and as they grow into adolescents they will need to not be left alone for long periods. They will also need a secure garden.",
+      "At present we are looking for adult only homes or older sensible teenagers who will follow instructions for the care of these puppies. We are looking for homes where they are the only pets in the home.",
+      "They have had a tough start in life and really need to find stable + secure forever homes – please only apply if you have put a lot of thought into the decision to apply as they are a 10+ year commitment and will need a lot of time and effort putting into them whilst they are so young. Please include plenty of information on your application to help us find them the most suitable homes."
+    ]
+  },
+  {
     "name": "Stella",
     "url": "https://ncar.org.uk/animals/stella/",
     "image": "https://ncar.org.uk/wp-content/uploads/2025/11/IMG_6212-e1790258498540.jpeg",
@@ -191,7 +208,7 @@
     ]
   },
   {
-    "name": "Forest – reserved pending app.",
+    "name": "Forest – appointment booked",
     "url": "https://ncar.org.uk/animals/forest/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260919-WA0007.jpg",
     "status": null,
@@ -393,7 +410,7 @@
     "name": "Roo",
     "url": "https://ncar.org.uk/animals/roo/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/07/090e27bc-b9f4-43b4-992f-5ac34df48fc4.jpeg",
-    "status": null,
+    "status": "Reserved",
     "age": "1-2 Years approx",
     "sex": "Female",
     "breed": "Staffie Cross",
