@@ -1,5 +1,69 @@
 [
   {
+    "name": "Tedi",
+    "url": "https://ncar.org.uk/animals/tedi/",
+    "image": "https://ncar.org.uk/wp-content/uploads/2026/09/f69d27e6-1de0-4b23-9464-90116d9e2ca9.jpeg",
+    "status": null,
+    "age": "1 year, 6months",
+    "sex": "Male",
+    "breed": "Beagle Cross",
+    "notes": [
+      "friendly with dogs",
+      "friendly with strangers",
+      "has lived with children"
+    ],
+    "description": [
+      "Tedi is a friendly, playful young dog who is looking for his forever home. He came to the rescue due to his family moving house and unable to take Tedi with him. He is looking for his forever home where he can have lots of adventures and fun!",
+      "He is a great boy who is a typical excitable lad who is excited to meet new people and go for walks! He has been a very friendly with everyone he has met so far. He can be rehomed with children 14+ who can get involved with his training and provide plenty of fun games! We are still assessing him so this can be discussed to a suitable home.",
+      "He does like your company so he’ll be best suited to a home that won’t leave him alone for long periods and can get him out socialising and having lots of walks. Please have a research about seperation anxiety as we think he is an anxious boy who may have some seperation anxiety in the home. He can be nervous of other dogs on walks, and can be a little barky when he is unsure. He will need plenty of socialisation in his next home but we can look at doing mixes here at the rescue to see if he is compatitable to live with another dog. Anyone interested in Tedi has to be dedicated to coming up for a couple trips to the rescue and dedicated in the home to doing ongoing training.",
+      "In his previous home, he travelled well in the car, good at the vets and housetrained. He will need secure 6ft fencing. We hope he finds his forever home soon as he has so much potential to be an amazing companion."
+    ]
+  },
+  {
+    "name": "Mitzy",
+    "url": "https://ncar.org.uk/animals/mitzy/",
+    "image": "https://ncar.org.uk/wp-content/uploads/2026/09/20260930_125541.jpg",
+    "status": null,
+    "age": "12/13 Years old.",
+    "sex": "Female",
+    "breed": "Greyhound Cross.",
+    "notes": [
+      "can live with older children",
+      "friendly with dogs",
+      "friendly with strangers",
+      "good on the lead",
+      "can't live with young children"
+    ],
+    "description": [
+      "Mitzy is a sweet older girl that came to us as a stray. She sadly not been claimed and we haven’t received any information about her past. She is now looking for a warm, loving home that she can be thoroughly spoilt in.",
+      "We are estimating Mitzy is around 12/13 years old, she is a quiet, friendly girl that is quite bewildered here in kennels. She is looking for a home as the only dog so she can have lots of peace and quiet. We are still assessing her around dogs as she hasn’t show much interest, but we can look at introducing her with any calm, older dogs that she can nap alongside.",
+      "She likes her walks, she is pretty slow and just plods alongside you. She isn’t too fussed walking in the rain and would absolutely prefer to stay in her bed! We’d prefer her to go to a quiet household where she can relax, but can live with older calm children that will understand she doesn’t want to be over handled or played with. But she can have visiting children 8+, again who can respect she’s a little old lady. We do not know what she is like with cats.",
+      "Generally, Mitzy is a very sweet older girl and has already become a favourite of the staff. We hope people aren’t put off by her age and she can get back to her home comforts of napping on the sofa, and plenty of nice treats. She is a smaller size greyhound (cross), but she is quite underweight at the moment so we are trying to build that up."
+    ]
+  },
+  {
+    "name": "Obie",
+    "url": "https://ncar.org.uk/animals/obie/",
+    "image": "https://ncar.org.uk/wp-content/uploads/2026/09/0c8a2801-da35-4d1e-a338-e27a7418abce.jpeg",
+    "status": "Reserved",
+    "age": "14 weeks old",
+    "sex": "Male",
+    "breed": "Labrador x Lurcher",
+    "notes": [
+      "can live with sensible children",
+      "can live with other dogs",
+      "friendly with dogs",
+      "friendly with strangers",
+      "good on the lead",
+      "good with kids"
+    ],
+    "description": [
+      "Obie is a little cutie who has sadly come back to the rescue due to his new family feeling like he was not the right fit for them, he is only 14 weeks old and we are keen to get him into a new forever home as soon as possible so please do not apply for him if you have any upcoming holidays or commitments that would delay his adoption.",
+      "His previous family have made a great start on his training and new owners will need to be committed to his ongoing training and socialisation to ensure that he matures into a well-rounded adult. He is looking for a home where he will not be left for long hours and with active owners who will get him out and about exploring on adventures. Obie has been crate trained, and knows how to sit, give paw and knows the ‘wait’ command – he is a bright lad who is very food motivated which definitely helps. He is a confident boy and has been great with other dogs – he can be rehomed with a compatible tolerant and playful dog in his next home, we will do introductions at the rescue to ensure that the dogs both get on well. Due to his young age he has potential to live with other animals too providing that his new owners are experienced in doing introductions and training.He can be rehomed with dog-savvy children aged 8+.",
+      "Obie is a typical nippy/mouthy puppy and will need further work on this as he grows – he will thrive in a home with owners that have experience of his breeds. We really hope a great home comes along for him soon as he still has lots to learn about the world 🙂"
+    ]
+  },
+  {
     "name": "Welsh Pups",
     "url": "https://ncar.org.uk/animals/welsh-pups/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/6D060C10-8199-4AC0-9A44-235C25CE7341.jpeg",
@@ -37,7 +101,7 @@
     ]
   },
   {
-    "name": "Rags – appointment booked",
+    "name": "Rags",
     "url": "https://ncar.org.uk/animals/rags/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/2616b121-4549-4428-b38d-b8cff85c8c46.jpeg",
     "status": null,
@@ -103,7 +167,7 @@
     "name": "Angel 2",
     "url": "https://ncar.org.uk/animals/angel-2/",
     "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260919-WA0035-scaled.jpg",
-    "status": null,
+    "status": "Reserved",
     "age": "9 years, 3 months",
     "sex": "Male",
     "breed": "JRT Cross.",
@@ -118,27 +182,6 @@
       "Angel arrived to the rescue very scared and frightened, due to this she could be quite defensive and give warnings that she didn’t want to be approached or handled. She is more nervous with men, but more recently she has become more confident and sassy. Any new owners will need to be dedicated to coming up for mulitple vists to the rescue to build a bond with her before taking her home. She will need an adult only home as she is a senior girl who just wants some home comforts. A calm, quiet home where she can chill on the sofa and have nice walks will be perfect for her. She walks well on lead and does like her walks so she will need daily exercise, as she is a little overweight at the moment.",
       "Angel is looking for a home as the only dog, she can bark at dogs on walks, but this is why we call her sassy as she isn’t very committed to bark, she just has a lot to say! However, a home as the only dog will be better for her but important she can be around dogs to build her confidence on walks.",
       "Although she’s an older lady she is an active girl who likes her walks, and we hope she isn’t in kennels too long as she is a sweet girl. She potentially might be deaf too."
-    ]
-  },
-  {
-    "name": "Bella 3",
-    "url": "https://ncar.org.uk/animals/bella-3/",
-    "image": "https://ncar.org.uk/wp-content/uploads/2026/09/0230b9cd-85ea-447c-bb44-988b5ee32125.jpeg",
-    "status": "Reserved",
-    "age": "4 years, 3 months",
-    "sex": "Female",
-    "breed": "Staffie",
-    "notes": [
-      "can live with older children",
-      "friendly with strangers",
-      "good on the lead",
-      "can't live with dogs"
-    ],
-    "description": [
-      "Bella 3 arrived to us as a stray, unfortunately we don’t have any history on her, however we did find out she was on Facebook up for rehoming. She is now looking for a home where she can settle and have lots of cuddles.",
-      "She is a friendly, sweet girl who has been great with people since she arrived. She likes her walks and does have a good sniff and even with little legs she can walk far! She walks well on lead and doesn’t really pull, but she can when she is interested in a sniff. She is looking for a home where she won’t be left alone for long periods as she does enjoy your company.",
-      "She isn’t too keen around dogs at the moment, she will happily ignore them on walks and isn’t reactive, but she does get uncomfortable when dogs are too boisterous or in her face. She is looking for a home as the only dog, she will much prefer having all the attention! We think she has been passed around different homes in her 4 years of life so far, so we hope her next home will be very dedicated to spoiling her and giving her lots of love + stability.",
-      "She is a good girl, she’s very affectionate and likes a fuss. We think she’ll be a real snuggle buddy in a home. She can be rehomed with children 8+ who are used to being around dogs and respect her space when needed. We hope she isn’t in kennels too long as she is quite stressed and will thrive once shes back in a home environment."
     ]
   },
   {
@@ -161,50 +204,6 @@
       "We expect that he will be nervous when he’s adopted and in a new environment with new people, so therefore he will be more suited to a quieter home, that give him lots of calm introductions.",
       "Mick is looking for a home as the only dog, he will need some 1-2-1 training so we think he’ll be best in a home where he can get all the attention. He is friendly with dogs out and about, so it is important that is regularly socialised on walks. He is a strong boy so will need owners that can manage his strength and work on his lead training. Mick is very nervous with any vet treatment so does need work in this area.",
       "Generally he is a great boy who we hope finds a home soon, as he deserves some home comforts."
-    ]
-  },
-  {
-    "name": "Gouda",
-    "url": "https://ncar.org.uk/animals/gouda/",
-    "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260916-WA0010-scaled.jpg",
-    "status": "Reserved",
-    "age": "7-8years approx",
-    "sex": "Female",
-    "breed": "JRT Cross",
-    "notes": [
-      "can live with sensible children",
-      "friendly with dogs",
-      "friendly with strangers",
-      "can't live with dogs"
-    ],
-    "description": [
-      "Gouda sadly came to us as a stray, we have no information on her so she is now looking for a home where she can be very much spoilt!",
-      "Gouda is a very timid girl that took a couple days for her to settle with staff. She could be quite defensive, but this is because she initally very scared of us and the environment. She is still quite timid but has settled amazingly with staff and gets very excited and happy to see us! She has warmed up to us all and will crawl on our laps for cuddles!",
-      "She will need a patient and calm home as we expect she will be timid again in a new environment and may need a couple days to settle. She can be rehomed with older children 14+ who can give her the space she needs but also, give her lots of fuss and cuddles!",
-      "She can be nervous of new places, loud noises etc, so she will need owners that can help build her confidence. Due to her nervousness she cannot be let off lead in any unsecured places. She loves her walks and ia happy to sniff, but again she can quickly become scared. When she’s scared, she becomes very submissive and just rolls on her back!",
-      "She is looking for a home as the only dog as she can be quite uncomfortable around larger breeds but she is fine when passing dogs on walks.",
-      "This older lady needs a calm, loving home where she can be thoroughly spoilt. We hope she isn’t waiting too long."
-    ]
-  },
-  {
-    "name": "Pippa",
-    "url": "https://ncar.org.uk/animals/pippa/",
-    "image": "https://ncar.org.uk/wp-content/uploads/2026/09/IMG-20260916-WA0002.jpg",
-    "status": "Reserved",
-    "age": "8years Approx",
-    "sex": "Female",
-    "breed": "",
-    "notes": [
-      "can live with sensible children",
-      "friendly with strangers",
-      "good on the lead",
-      "can't live with dogs"
-    ],
-    "description": [
-      "Pippa is a friendly and affectionate girl that was found as a stray. Unfortunately she has not been claimed and is now looking for her forever home.",
-      "Pippa can be a little nervous and lacks confidence so we hope a new home can help show her the world isn’t as scared as she thinks! She is scared of traffic, nervous of being bathed and loud noises like hoovers and livestock. She needs a kind and patient owner who will help with her confidence. Although Pippa is an older lady she still has plenty of energy and enjoys her daily walks and playing in the garden. She walks well on lead and passes most dogs fine on walks. She is very much a people person and is happy to say hi to everyone she meets!",
-      "Her new home will need to have a secure garden and she must remain on lead as she is currently a flight risk dog if she is spooked. Pippa is looking for a home as the only dog as she can be quite snappy and uncomfortable around other dogs. She will ignore most, but she doesn’t like dogs in her own space. Pippa absolutely loves being with people so she’ll be best suited to a calm household where she won’t be left alone too long. She can be rehomed with sensible children who can respect her space if needed and not overcrowd her.",
-      "We hope this little lady finds a new home soon, as she would love to be snuggled next to you on the sofa! Pippa was quite matted and dirty when she first arrrived so ongoing grooming will need to be contiuned into the home."
     ]
   },
   {
@@ -747,28 +746,6 @@
       "He can be quite strong on the lead here and will require ongoing training to help with this but we also feel he will calm down quite a lot once he is out of kennels and is getting a lot of exercise. Angus likes running and sniffing in our secure paddocks, at the moment he doesn’t have any recall so he will require training in a few areas and will thrive in a home with owners who have the time to dedicate to him. He is looking for a home with sensible teenagers 14+. He is looking for a home with 6ft fences in the garden and he will need to be supervised when let out there as he did turn out to be a bit of an escape artist when he first went to his previous home. He is looking for a home where he won’t be left alone much as he thrives on human company.",
       "In his previous home he would get quite barky when he saw other dogs, this isn’t a behaviour he displays here at the rescue much and we do think with the right owners this will improve. He is looking to be the only pet in the home but with continued socialisation out and about.",
       "We hope a suitable home comes along soon for this handsome boy!"
-    ]
-  },
-  {
-    "name": "Skar",
-    "url": "https://ncar.org.uk/animals/skar/",
-    "image": "https://ncar.org.uk/wp-content/uploads/2025/08/IMG_1776.jpeg",
-    "status": null,
-    "age": "5 years",
-    "sex": "Female",
-    "breed": "Belgian Shepherd cross",
-    "notes": [
-      "can live with older children",
-      "friendly with dogs",
-      "is toilet trained"
-    ],
-    "description": [
-      "Skar is a friendly girl, who arrived as a stray very scared and frightened. We have been spending extra time with her and she now shows her playful, cheeky and loving side!",
-      "Since she arrived as a stray we have no history on her. She was very shut down the first few days but slowly started coming out of her shell with the staff. She now has some regular volunteer walkers and has formed a strong bond with them. She is more comfortable with women and can be quite timid of men, but this is something we are working on. Skar is looking for a adult only home as she is quite an intense/highly-driven dog and will be too much for children. She does get quite attached to staff here so we think she will have some separation anxiety so she’ll be suited to a home where she wont be left for long periods.",
-      "She is very playful and loves a game of ball and chase! She is very smart and already knows some tricks including, ‘sit, wait, fetch, paw, bark, middle’ etc so someone has put in work with her training. She will be best suited to an active home where someone can stimulate her both physically and mentally as she is very smart and eager to learn.",
-      "She has met a few dogs whilst here with us and generally ignores them, but when up close she can be hit or miss on how she gets on with the dog. We feel that she will be best in a home as the only pet as she will require a lot of one-to-one attention and training. Initally she was quite timid with veterinary treatment but this is improving and we can discuss more with potential adopters.",
-      "Skar is a typical Malinois and needs a home with owners that are familiar with the breed and their needs.",
-      "She does find kennels very stressful and easily gets very overwhelmed here so we hope she finds a home soon as she is lovely girl who isn’t getting enough exercise and stimulation here at the rescue."
     ]
   },
   {
